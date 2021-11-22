@@ -1,65 +1,77 @@
 <DOCTYPE!>
-<HTML lang="en">
+<html lang="en">
 	<head>
 		<title>Contact Page</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" media="screen" href="css/reset.css" />
-		<link rel="stylesheet" media="screen" href="css/style2.css" />
-		<link rel="stylesheet" media="screen" href="css/navandfooter.css">
+		<link rel="stylesheet" media="screen" href="reset.css" />
+		<link rel="stylesheet" media="screen" href="navandfooter.css">
+		<link rel="stylesheet" media="screen" href="style2.css" />
 		<script src="js/script.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Anton&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Anton&family=Crimson+Text&display=swap" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	</head>
 	<body>
-		<header>
-			<a href="contact.html"><img src= "images/logo.jpg" alt = "logo picture"></a>
-		</header>
-		<nav class="top-bar">
+		<nav>
 			<div class="topnav" id="myTopnav">
-				<ul class="left">
-					<li><a href="index.html">Home</a><li>
-					<li><a href="about.html">About Us</a><li>
-					<li><a href="contact.html">Contact us</a></li>
-				</ul>
-				<ul class="right">
+				<div class="logo">
+					<img src="images/logo.jpg" alt="logo" onClick="myLogoClick()">
+				</div>
+				<a href="index.html">Home</a>
+				<a href="#" class="active"">Contact Us</a>
+				<a href="about.html">About Us</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+			</div>
+		</nav>
+		<section class="contact_info">
+		  <h2>Please Enter Your Info! </h2>
+		  <div>
+		    <label>Full Name:</label>
+			<input type="text" name="name_field" placeholder="Full Name">
+		  </div> 
+		  <div> 
+			<label>Email:</label>
+			<input type="email" name="email_field" placeholder="example@hawk.iit.edu">
+		  </div>
+		  <div>
+			<label>Phone Number:</label>
+			<input type="tel" name="phone_field" placeholder="123-456-7890">
+		  </div>
+		  <div>
+			<label>Message:</label>
+			<input type="message" name="message_field" placeholder="What would you like to say to us?">
+		  </div>
+		</section>
+		<section class="radio_grp">
+		  <h2>Contact Options:</h2>
+		  <div id="radiobuttons">
+			<input type="radio" id="text_contact" name="phone_field" value="text">
+			<label for="text_field">Would you like to be contacted through text message? Click here!</label>
+		  </div>
+		  <div>
+			<input type="radio" id="email_contact" name="mail_field" value="email">
+			<label for="mail_field">Would you like to be contacted through email? Click Here!</label>
+		  </div>
+		</section>
+		<input id="submit" type="submit" value="Contact Us!">
+		<!-- FOOTER AREA -->
+		<div class="footer-wrapper">
+			<div class="row">
+				<h3><strong>International Society for Universal Dialogue</strong></h3>
+			</div>
+			<div class="social-links">
+				<ul>
 					<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="https://www.instagram.com/internationalsociety/?h1=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/internationalsociety/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 					<li><a href="https://www.linkedin.com/company/unavailable/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
 				</ul>
 			</div>
-		</nav>
-	<section class="contact_info">
-		<h2>
-			<div>
-				<label>Full Name:</label>
-					<input type="text" name="name_field" placeholder="Full Name">
-			</div> 
-			<div> 
-				<label>Email:</label>
-					<input type="email" name="email_field" placeholder="example@hawk.iit.edu">
+			<div class="footer-notes">
+				<p> &copy; 2021 by Nida Akkiswala, Eduardo Carbo, Oleksandr Lemeha</p>
 			</div>
-			<div>
-				<label>Phone Number:</label>
-					<input type="tel" name="phone_field" placeholder="123-456-7890">
-			</div>
-			<div>
-				<label>Message:</label>
-					<input type="message" name="message_field" placeholder="Your message here">
-			</div>
-	</section>
-	<section class="radio_grp">
-		<h2>Contact Options:</h2>
-			<div>
-				<input type="radio" id="text_contact" name="phone_field" value="text">
-						<label for="text_field">Would you like to be contacted through text message? Click here!</label>
-			</div>
-			<div>
-				<input type="radio" id="email_contact" name="mail_field" value="email">
-						<label for="mail_field">Would you like to be contacted through email? Click Here!</label>
-			</div>
-	</section>
-	<input id="submit" type="submit" value="Submit Information">
-</body>
+		</div>	
+	</body>
 </html> 
