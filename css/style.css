@@ -1,0 +1,74 @@
+html {
+  text-rendering: optimizeLegibility;
+  font-size: 1em;
+  background-color: #27379C;
+}
+
+#content {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  border-radius: 2em;
+  font-size: 2em;
+  font-family: 'Amiri', serif;
+  box-sizing: border-box;
+  background-color: #23953C;
+}
+
+#who {
+  color: #FFFD00;
+  box-sizing: border-box;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 2em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#origin {
+  color: #FFFD00;
+  box-sizing: border-box;
+  font-family: 'Crimson Text', serif;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 2em;
+  padding-bottom: 35px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#events {
+  color: #FFFD00;
+  box-sizing: border-box;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5em;
+  border-radius: 2em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+p {
+  border-left: 6px solid #C6C52E;
+  border-right: 6px solid #C6C52E;
+  background-color: #2D3A88;
+  box-sizing: border-box;
+  border-radius: 2em;
+  padding: 13px 21px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#events ul li{
+  list-style-type: none;
+  padding: 11px 21px;
+  border-left: 6px solid #C6C52E;
+  border-right: 6px solid #C6C52E;
+  background-color: #2D3A88;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 1em;
+}
