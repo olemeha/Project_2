@@ -1,11 +1,11 @@
-<DOCTYPE!>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title>Contact Page</title>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" media="screen" href="reset.css" />
-		<link rel="stylesheet" media="screen" href="navandfooter.css">
-		<link rel="stylesheet" media="screen" href="style2.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" media="screen" href="css/reset.css" />
+		<link rel="stylesheet" media="screen" href="css/navandfooter.css">
+		<link rel="stylesheet" media="screen" href="css/style2.css" />
 		<script src="js/script.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,42 +21,44 @@
 					<img src="images/logo.jpg" alt="logo" onClick="myLogoClick()">
 				</div>
 				<a href="index.html">Home</a>
-				<a href="#" class="active"">Contact Us</a>
 				<a href="about.html">About Us</a>
+				<a href="#" class="active"">Contact Us</a>
 				<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
 			</div>
 		</nav>
-		<section class="contact_info">
-		  <h2>Please Enter Your Info! </h2>
-		  <div>
-		    <label>Full Name:</label>
-			<input type="text" name="name_field" placeholder="Full Name">
-		  </div> 
-		  <div> 
-			<label>Email:</label>
-			<input type="email" name="email_field" placeholder="example@hawk.iit.edu">
-		  </div>
-		  <div>
-			<label>Phone Number:</label>
-			<input type="tel" name="phone_field" placeholder="123-456-7890">
-		  </div>
-		  <div>
-			<label>Message:</label>
-			<input type="message" name="message_field" placeholder="What would you like to say to us?">
-		  </div>
-		</section>
-		<section class="radio_grp">
-		  <h2>Contact Options:</h2>
-		  <div id="radiobuttons">
-			<input type="radio" id="text_contact" name="phone_field" value="text">
-			<label for="text_field">Would you like to be contacted through text message? Click here!</label>
-		  </div>
-		  <div>
-			<input type="radio" id="email_contact" name="mail_field" value="email">
-			<label for="mail_field">Would you like to be contacted through email? Click Here!</label>
-		  </div>
-		</section>
-		<input id="submit" type="submit" value="Contact Us!">
+		<div id = "contact_wrapper">
+			<section class="contact_info">
+			  <h2>Please Enter Your Info! </h2>
+			  <div>
+				<label>Full Name:</label>
+				<input type="text" name="name_field" placeholder="Full Name">
+			  </div> 
+			  <div> 
+				<label>Email:</label>
+				<input type="email" name="email_field" placeholder="example@hawk.iit.edu">
+			  </div>
+			  <div>
+				<label>Phone Number:</label>
+				<input type="tel" name="phone_field" placeholder="123-456-7890">
+			  </div>
+			  <div>
+				<label>Message:</label>
+				<input type="message" name="message_field" placeholder="What would you like to say to us?">
+			  </div>
+			</section>
+			<section class="radio_grp">
+			  <h2>Contact Options:</h2>
+			  <div id="radiobuttons">
+				<input type="radio" id="text_contact" name="phone_field" value="text">
+				<label for="text_field">Would you like to be contacted through text message? Click here!</label>
+			  </div>
+			  <div>
+				<input type="radio" id="email_contact" name="mail_field" value="email">
+				<label for="mail_field">Would you like to be contacted through email? Click Here!</label>
+			  </div>
+			</section>
+			<input id="submit" type="submit" value="Contact Us!">
+		</div>
 		<!-- FOOTER AREA -->
 		<div class="footer-wrapper">
 			<div class="row">
