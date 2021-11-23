@@ -108,6 +108,7 @@
 
 	
 	}
+}
 @media screen and (min-width: 600px) {
 	#about-wrapper{
 		padding:3.5px;
@@ -117,5 +118,4 @@
 		margin-left: 3%;
 		margin-right: 3%;
 	}
-	
 }

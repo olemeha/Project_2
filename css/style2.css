@@ -10,8 +10,7 @@ h2{
 }
 
 section{
-	clear:both;
-	margin:left;
+	float:left;
 }
 
 #submit{
