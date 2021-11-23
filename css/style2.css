@@ -3,6 +3,7 @@ h2{
  	font-size: 1.5em;
   	color: white;
   	text-align: center;
+  	margin: 5% 0;
 }
 #contact_wrapper{
 	width:70%;
@@ -10,34 +11,64 @@ h2{
 }
 
 section{
-	float:left;
+	text-align:center;
 }
 
 #submit{
 	font-family: 'Amiri', serif;
   	box-sizing: border-box;
- 	width: 35%;
+ 	width: 70%;
   	height: 2em;
   	background-color: #FFFD00;
   	color: black;
   	font-size: 1em;
-  	margin: auto;
+  	margin: 5% 15%;;
 }
 
 #radiobutton {
   	text-align: left;
 }
-
-#contact_info input{ 
+.contact_info{
+	overflow:hidden;
+	display:block;
+}
+.contact_info input{ 
 	padding: 8px 8px;
   	margin: 5px;
   	box-sizing: border-box;
-  	width: 20em;
+  	width: 100%;
+  	float:left;
 }
-
+.radio_grp{
+	overflow:hidden;
+	display:block;
+}
+.radio_grp input{
+	float:left;
+}
 label {
   	color: #FFFD00;
  	font-family: 'Crimson Text', serif;
  	text-align: center;
   	font-size: 1em;
+  	float:left;
+  	display:block;
+}
+@media screen and (min-width:480px){
+	h2{
+		font-size:1.4em;
+	}
+	#submit{
+		width: 60%;
+		margin: 5% 20%;;
+	}
+}
+@media screen and (min-width:600px) {
+	h2{
+		font-size: 1.3em;
+	}
+	#submit{
+		width: 70%;
+		margin: 5% 15%;
+	}
 }

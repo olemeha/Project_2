@@ -81,32 +81,9 @@
 		padding:2px;
 		font-size: 0.7em;
 	}
-	#about-wrapper p{
-	  
-	}
-
-	#about-wrapper h1 {
-	
-	}
-
 	.who {
 		margin-left: 5%;
 		margin-right: 5%;
-	}
-
-
-	.origin {
-	
-	}
-
-	.events {
-
-	}
-
-
-	.events ul li{
-
-	
 	}
 }
 @media screen and (min-width: 600px) {
