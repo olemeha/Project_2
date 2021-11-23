@@ -14,7 +14,6 @@ body{
 }
 /* ===== NAVIGATION STYLES ===== */
 
-
 .topnav {
 	overflow: hidden;
 	background-color: #F2F14C;
@@ -114,7 +113,7 @@ body{
 @media screen and (max-width:480px){
 	body{
 		font-size: 35px;
-		padding: 5px;
+		padding: 1px;
 	}
 	/*footer media query*/
 	.footer-wrapper .row h3{
