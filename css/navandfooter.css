@@ -2,7 +2,6 @@
 /* ===== LAYOUT STYLES =====*/
 html{
 	width: auto;
-	font-family: 'Amiri', serif;
 	background-color: #27379C;
 }
 body{
@@ -13,11 +12,11 @@ body{
 	padding: 10px;
 }
 /* ===== NAVIGATION STYLES ===== */
-
 .topnav {
 	overflow: hidden;
 	background-color: #F2F14C;
 	margin-bottom: 20px;
+	font-family: 'Amiri', serif;
 }
 .topnav .logo{
 	margin: 0;
@@ -65,6 +64,7 @@ body{
 	width: 100%;
 	margin-top: 5%;
 	overflow:hidden;
+	font-family: 'Amiri', serif;
 }
 .footer-wrapper .row h3{
 	padding: 10px;
@@ -118,7 +118,7 @@ body{
 	/*footer media query*/
 	.footer-wrapper .row h3{
 		padding: 14px;
-		font-size: 17px;
+		font-size: 20px;
 	}
 	.footer-wrapper .social-links ul{
 		width:45%;

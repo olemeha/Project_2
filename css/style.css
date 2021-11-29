@@ -14,6 +14,8 @@
 	padding-top: 12px;
 	padding-bottom: 12px;
 	margin-bottom: 5px;
+	font-family: 'Crimson Text', serif;
+	font-size:1.5em;
 }
 
 #about-wrapper h1 {
@@ -23,48 +25,45 @@
 	padding: 5px;
 	color: white;
 	border-radius: 2em;
-	font-size: 1.5em;
+	font-size: 1.7em;
 	font-family: 'Amiri', serif;
 	box-sizing: border-box;
 	background-color: #23953C;
 }
 
-.who {
+#about-wrapper .who {
 	color: #FFFD00;
 	box-sizing: border-box;
-	font-family: 'Crimson Text', serif;
 	text-align: center;
-	font-size: 1.5em;
 	border-radius: 2em;
 	margin-left: 2%;
 	margin-right: 2%;
 }
 
 
-.origin {
+#about-wrapper .origin {
 	color: #FFFD00;
 	box-sizing: border-box;
-	font-family: 'Crimson Text', serif;
 	text-align: center;
-	font-size: 1.5em;
 	border-radius: 2em;
-	padding-bottom: 35px;
 	margin-left: 5%;
 	margin-right: 5%;
 }
 
-.events {
+#about-wrapper .events {
 	color: #FFFD00;
 	box-sizing: border-box;
 	font-family: 'Crimson Text', serif;
-	font-size: 1.5em;
+	font-size:1.5em;
 	border-radius: 2em;
 	margin-left: 5%;
 	margin-right: 5%;
 }
+#about-wrapper .events h1{
+	font-size: 1.1em;
+}
 
-
-.events ul li{
+#about-wrapper .events ul li{
 	list-style-type: none;
 	padding: 11px 21px;
 	border-left: 6px solid #C6C52E;
@@ -81,18 +80,37 @@
 		padding:2px;
 		font-size: 0.7em;
 	}
-	.who {
+	#about-wrapper h1{
+		font-size: 1.5em;
+	}
+	#about-wrapper p{
+		font-size: 1.3em;
+	}
+	#about-wrapper .who {
 		margin-left: 5%;
 		margin-right: 5%;
 	}
+	#about-wrapper .events{
+		font-size: 1.2em;
+	}
+	
 }
 @media screen and (min-width: 600px) {
 	#about-wrapper{
 		padding:3.5px;
 		font-size: 0.5em;
 	}
-	.who{
+	#about-wrapper h1{
+		font-size: 1.4em;
+	}
+	#about-wrapper p{
+		font-size: 1.2em;
+	}
+	#about-wrapper .who{
 		margin-left: 3%;
 		margin-right: 3%;
+	}
+	#about-wrapper .events{
+		font-size: 1.3em;
 	}
 }

@@ -5,6 +5,7 @@
 	position:relative;
 	display: inline-block;
 	overflow:hidden;
+	font-family:'Crimson', serif;
 }
 .image-container img{
 	display:block;
@@ -27,13 +28,14 @@
 	font-size: 35px;
 	padding: 5px;
 	margin-bottom:3%;
+	font-family:'Amiri', serif;
 }
 .image-container .centered button{
 	background-color: #F2F14C;
 	color:#0C1862;
 	border-radius: 30px;
 	border-style: none;
-	font-family:'Crimson Text', serif;
+	font-family:'Crimson', serif;
 	font-size: 1em;
 	padding: 10px;
 	width: 50%;
@@ -54,6 +56,7 @@
 	min-height: 300px;
 	display: -webkit-flex; /* Safari */		
 	display: flex; /* Standard syntax */
+	font-family:'Crimson', serif;
 }
 .content-wrapper .row2{
 	width: 60%;
@@ -80,7 +83,7 @@
 	border-radius: 30px;
 	border-style: none;
 	width:50%;
-	font-family:'Crimson Text', serif;
+	font-family:'Crimson', serif;
 	font-size: 0.8em;
 	padding: 5px;
 	margin-bottom: 30px;
@@ -128,9 +131,8 @@
 		width: 100%; /* Set the width of the positioned div */
 		position:relative;
 		margin: 3% auto;
-	    color:#F2F14C;
 	    padding: 5px 0;
-	    background:#3243AF;
+	    background:#36B108;
 	}
 	.image-container .centered button{
 		font-size: 1.2em;
@@ -168,9 +170,6 @@
 }
 @media screen and (max-width: 600px) {
 	/*center image and text media query*/
-	.image-container .centered{
-		width: 100%; /* Set the width of the positioned div */
-	}
 	.image-container .centered h1{
 		font-size: 40px;
 		padding: 0;
