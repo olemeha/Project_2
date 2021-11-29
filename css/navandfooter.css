@@ -2,7 +2,6 @@
 /* ===== LAYOUT STYLES =====*/
 html{
 	width: auto;
-	font-family: 'Amiri', serif;
 	background-color: #27379C;
 }
 body{
@@ -13,11 +12,11 @@ body{
 	padding: 10px;
 }
 /* ===== NAVIGATION STYLES ===== */
-
 .topnav {
 	overflow: hidden;
 	background-color: #F2F14C;
 	margin-bottom: 20px;
+	font-family: 'Amiri', serif;
 }
 .topnav .logo{
 	margin: 0;
@@ -63,8 +62,9 @@ body{
 .footer-wrapper{
 	background-color: #F2F14C;
 	width: 100%;
-	margin-top: 5%;
+	margin-top: 20px;
 	overflow:hidden;
+	font-family: 'Amiri', serif;
 }
 .footer-wrapper .row h3{
 	padding: 10px;
@@ -88,9 +88,7 @@ body{
 .footer-wrapper .social-links a{
 	position: relative;
 	display: block;
-	width: 15px;
-	height: 15px;
-	font-size: 15px;
+	font-size: 20px;
 	word-break: break-all;
 	color: #27379C;
 }
@@ -104,7 +102,7 @@ body{
 	padding: 5px;
 }
 .footer-wrapper p{
-	font-size: 8px;
+	font-size: 10px;
 	text-align: center;
 	color: white;
 }
@@ -118,7 +116,7 @@ body{
 	/*footer media query*/
 	.footer-wrapper .row h3{
 		padding: 14px;
-		font-size: 17px;
+		font-size: 20px;
 	}
 	.footer-wrapper .social-links ul{
 		width:45%;
@@ -183,10 +181,7 @@ body{
 		margin: 0 20% 0 20%;
 	}
 	.footer-wrapper .social-links a{
-		width: 20px;
-		height: 20px;
-		font-size: 20px;
-		
+		font-size: 15px;
 	}
 	.footer-wrapper p{
 		font-size: 10px;
