@@ -84,7 +84,7 @@ input[type='radio'] {
  	width: 70%;
   	height: 2em;
   	background-color: #FFFD00;
-  	color: black;
+  	color: #0C1862;;
   	font-size: 1em;
   	margin: 5% 15%;;
 }
@@ -92,6 +92,7 @@ input[type='radio'] {
 	border-radius: 10px;
 	font-size:1.1em;
 	box-shadow: 1px 2px 3px white;
+	color: #0A8A26;
 }
 @media screen and (min-width:480px){
 	#contact_wrapper{
@@ -114,7 +115,12 @@ input[type='radio'] {
 	}
 	#submit{
 		width: 60%;
-		margin: 5% 20%;;
+		margin: 5% 20%;
+		font-size: 0.9em;
+	}
+	#submit:hover{
+		border-radius: 9px;
+		font-size:0.95em;
 	}
 }
 @media screen and (min-width:600px) {
@@ -139,5 +145,10 @@ input[type='radio'] {
 	#submit{
 		width: 70%;
 		margin: 5% 15%;
+		font-size: 0.7em;
+	}
+	#submit:hover{
+		border-radius: 8px;
+		font-size:0.75em;
 	}
 }

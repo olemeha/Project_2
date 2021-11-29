@@ -24,6 +24,7 @@
 	color: #0C1862;
 	width: 90%; /* Set the width of the positioned div */
 }
+
 .image-container .centered h1{
 	font-size: 35px;
 	padding: 5px;
@@ -132,7 +133,7 @@
 		position:relative;
 		margin: 3% auto;
 	    padding: 5px 0;
-	    background:#36B108;
+	    color:white;
 	}
 	.image-container .centered button{
 		font-size: 1.2em;
