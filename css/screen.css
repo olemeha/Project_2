@@ -1,4 +1,5 @@
 /* =====CONTENT STYLES =====*/
+/*Home Page CSS*/ 
 /*image and title style*/
 .image-container{
 	width: 100%;
@@ -55,6 +56,7 @@
 	overflow:hidden;
 	font-family:'Crimson', serif;
 }
+/*row2 style*/
 .content-wrapper .row2{
 	width: 100%;
 	display:block;
@@ -93,6 +95,7 @@
     font-size: 38px;
 	box-shadow: 1px 3px 3px #0C1862;
 }
+/*row3 style*/
 .content-wrapper .row3{
 	width:100%;
 	margin-top: 2%;
@@ -119,9 +122,24 @@
 	width:90%;
 	margin: 0% 5% 5% 5%;
 }
+/*end of home page style*/
+
+
+/*About Us Page CSS*/ 
+
+
+/*end of about us page style*/
+
+
+/*Contact Us Page CSS*/ 
+
+
+/*end of Contact us page style*/
+
 /* ===== STATE STYLES ===== */
 @media screen and (min-width:480px){
 	
+	/*home page media query for 480px*/
 	/*image-container media query*/
 	.image-container .centered{
 		margin: 3% auto;      
@@ -171,8 +189,25 @@
 		width: 80%;
 		margin: 0% 10% 5% 10%;
 	}
+	/*end of home page media query*/
+
+
+
+	/*about us page media query for 480px*/
+	
+	
+	/*end of about us page media query*/
+	
+	
+	
+	/*contact us page media query for 480px*/
+	
+	
+	/*end of contact us page media query*/
 }
 @media screen and (min-width: 600px) {
+
+	/*home page media query for 600px*/
 	/*center image and text media query*/
 	.image-container .centered{
 		position: absolute;
@@ -234,6 +269,20 @@
 		width:70%;
 		margin: 0% 15% 5% 15%;
 	}
+	/*end of home page media query*/
+	
+	
+	/*about us page media query for 600px*/
+	
+	
+	/*end of about us page media query*/
+	
+	
+	
+	/*contact us page media query for 600px*/
+	
+	
+	/*end of contact us page media query*/
 }
 
 
