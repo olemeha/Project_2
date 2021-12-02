@@ -296,7 +296,35 @@ input[type='radio'] {
 	
 	
 	/*contact us page media query for 480px*/
-	
+@media screen and (min-width:480px){
+	#contact_wrapper{
+		width:90%;
+	}
+	h2{
+		font-size:1.3em;
+	}
+	.contact_info input{
+		font-size: 0.70em;
+	}
+	.contact_info label{
+		font-size: 0.95em;
+	}
+	.radio_grp label{
+		font-size: 0.8em;
+	}
+	input[type='radio'] { 
+		 transform: scale(1.5); 
+	}
+	#submit{
+		width: 60%;
+		margin: 5% 20%;
+		font-size: 0.9em;
+	}
+	#submit:hover{
+		border-radius: 9px;
+		font-size:0.95em;
+	}
+}
 	
 	/*end of contact us page media query*/
 }
