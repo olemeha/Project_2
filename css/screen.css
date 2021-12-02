@@ -132,7 +132,57 @@
 
 
 /*Contact Us Page CSS*/ 
+#contact_wrapper{
+	width:100%;
+	margin: auto;
+	background: #3243AF;
+	padding:0;
+}
+form{
+    display:block;
+    box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.14);
+}
+fieldset{
+	padding:10px;
+    border-style: none;
+    margin:0;
+}
+h2{
+	font-family: 'Amiri', serif;
+ 	font-size: 1.35em;
+  	color: white;
+  	text-align: center;
+  	margin: 5% 0;
+}
+.contact_info{
+	overflow:hidden;
+	display:block;
+}
+.contact_info input{ 
+	padding: 10px 10px;
+  	margin-bottom:10px;
+  	margin-right: 2.5%;
+  	margin-left:2.5%;
+  	box-sizing: border-box;
+  	font-size: 0.75em;
+  	width: 95%;
+  	float: left;
+  	border-style: none;
+  	font-family: 'Crimson Text', serif;
+}
 
+.contact_info label {
+  	color: #FFFD00;
+ 	text-align: left;
+  	font-size: 1.1em;
+  	float: left;
+  	width: 95%;
+  	margin-right: 2.5%;
+  	margin-left:2.5%;
+  	margin-bottom: 5px;
+  	display:block;
+  	font-family: 'Crimson Text', serif;
+}
 
 /*end of Contact us page style*/
 
