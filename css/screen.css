@@ -403,7 +403,35 @@ input[type='radio'] {
 	
 	
 	/*contact us page media query for 600px*/
-	
+@media screen and (min-width:600px) {
+	#contact_wrapper{
+		width:75%;
+	}
+	h2{
+		font-size: 1em;
+	}
+	.contact_info input{
+		font-size: 0.65em;
+	}
+	.contact_info label{
+		font-size: 0.85em;
+	}
+	.radio_grp label{
+		font-size: 0.75em;
+	}
+	input[type='radio'] { 
+		 transform: scale(1.2); 
+	}
+	#submit{
+		width: 70%;
+		margin: 5% 15%;
+		font-size: 0.7em;
+	}
+	#submit:hover{
+		border-radius: 8px;
+		font-size:0.75em;
+	}
+}
 	
 	/*end of contact us page media query*/
 }
