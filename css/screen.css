@@ -21,7 +21,7 @@ nav .topnav {
 	overflow: hidden;
 	background-color: #F2F14C;
 	margin-bottom: 15px;
-	font-family: 'Amiri', serif;
+	font-family: 'Amiri',Arial, serif;
 }
 nav .topnav .logo img{
 	width: 170px;
@@ -94,13 +94,7 @@ nav .topnav.responsive a.active{
 	display: inline-block;
 	overflow:hidden;
 	font-family:'Crimson', Georgia, serif;
-}
-.image-container img{
-	display:block;
-	width: 100%;
-	margin-left:auto;
-	margin-right:auto;
-	
+	margin-bottom: 5px;
 }
 .image-container .centered{
 	width: 90%; /* Set the width of the positioned div */
@@ -115,7 +109,7 @@ nav .topnav.responsive a.active{
 }
 .image-container .centered h1{
 	font-size: 40px; 
-	font-family:'Amiri', Arial, serif;
+	font-family:'Amiri',Arial, serif;
 	margin-bottom: 1%;
 }
 .image-container .centered button{
@@ -123,25 +117,30 @@ nav .topnav.responsive a.active{
 	color:#0C1862;
 	border-radius: 10px;
 	border-style: none;
-	font-family:'Crimson', serif;
+	font-family:'Crimson', Georgie, serif;
 	font-size: 35px;
 	padding: 10px;
 	width: 70%;
 }
 .image-container .centered button:hover{
 	background-color: #FFFE78;
-    	color: #0A8A26;
+    color: #0A8A26;
 	font-size:37px;
-    	border-radius: 25px;
+    border-radius: 25px;
 	box-shadow: 1px 4px 5px #30A804;
+}
+.image-container .image-centered img{
+	display:block;
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 /*about us information and image style*/
 .content-wrapper{
 	display: block;
 	width: 100%;
-	margin: 2% 0 2% 0;
 	overflow:hidden;
-	font-family:'Crimson', Georgia, serif;
+	font-family:'Crimson',Georgia, serif;
 }
 /*row2 style*/
 .content-wrapper .row2{
@@ -155,37 +154,37 @@ nav .topnav.responsive a.active{
 	width: 80%;
 	margin: 6% 10% 3% 10%;
 }
-.content-wrapper .row2 h2{
+.content-wrapper .row2 .about-section h2{
 	font-size: 1.4em;
 }
-.content-wrapper .row2 p {
+.content-wrapper .row2 .about-section p {
 	font-size: 1.1em;
 	font-style: italic;
 	margin-top: 45px;
 	margin-bottom: 45px;
 }
-.content-wrapper .row2 button{
+.content-wrapper .row2 .about-section button{
 	background-color: #F2F14C;
 	color:#0C1862;
 	border-radius: 15px;
 	border-style: none;
 	width:90%;
-	font-family:'Crimson', Georgia,  serif;
+	font-family:'Crimson', Georgia, serif;
 	font-size: 35px;
 	padding: 9px;
 	margin-bottom: 20px;
 }
-.content-wrapper .row2 button:hover{
+.content-wrapper .row2 .about-section button:hover{
 	border-radius: 25px;
 	background-color: #FFFE78;
-    	color: #0A8A26;
-    	font-size: 38px;
+    color: #0A8A26;
+    font-size: 38px;
 	box-shadow: 1px 3px 3px #0C1862;
 }
 /*row3 style*/
 .content-wrapper .row3{
 	width:100%;
-	margin-top: 2%;
+	margin-top: 10px;
 	float:left;	
 	vertical-align: top;
 	text-align: center;
@@ -230,7 +229,7 @@ nav .topnav.responsive a.active{
 	padding-top: 12px;
 	padding-bottom: 12px;
 	margin-bottom: 10px;
-	font-family: 'Crimson Text', Georgia, serif;
+	font-family: 'Crimson', Georgia, serif;
 	font-size:1.3em;
 }
 #about-wrapper h1 {
@@ -242,7 +241,7 @@ nav .topnav.responsive a.active{
 	border-radius: 2em;
 	border: 4px solid #248500;
 	font-size: 1.5em;
-	font-family: 'Amiri', Arial, serif;
+	font-family: 'Amiri', serif;
 	box-sizing: border-box;
 	
 }
@@ -269,6 +268,7 @@ nav .topnav.responsive a.active{
 	border-radius: 5px;
 	margin-bottom: 10px;
 }
+
 #about-wrapper .events {
 	color: #FFFD00;
 	box-sizing: border-box;
@@ -278,7 +278,7 @@ nav .topnav.responsive a.active{
 	margin-top:25px;
 }
 #about-wrapper .events ul li{
-	font-family: 'Crimson Text', Georgia, serif;
+	font-family: 'Crimson', Georgia, serif;
 	list-style-type: none;
 	padding: 11px 21px;
 	border-left: 6px solid #C6C52E;
@@ -295,33 +295,33 @@ nav .topnav.responsive a.active{
 
 /*==========================*/
 /*CONTACT US PAGE STYLE*/ 
-#contact_wrapper {
+#contact_wrapper{
 	width:100%;
 	margin: auto;
 	background: #3243AF;
 	padding:0;
 }
-form {
-    	display:block;
-    	box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.14);
+#contact_wrapper form{
+    display:block;
+    box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.14);
 }
-fieldset {
-    	padding:10px;
-    	border-style: none;
-    	margin:0;
+#contact_wrapper form fieldset{
+	padding:10px;
+    border-style: none;
+    margin:0;
 }
-h2 {
-	font-family: 'Amiri', Arial, serif;
+#contact_wrapper h2{
+	font-family: 'Amiri', serif;
  	font-size: 1.35em;
   	color: white;
   	text-align: center;
   	margin: 5% 0;
 }
-.contact_info {
+#contact_wrapper form fieldset .contact_info{
 	overflow:hidden;
 	display:block;
 }
-.contact_info input { 
+#contact_wrapper form fieldset .contact_info input{ 
 	padding: 10px 10px;
   	margin-bottom:10px;
   	margin-right: 2.5%;
@@ -331,10 +331,10 @@ h2 {
   	width: 95%;
   	float: left;
   	border-style: none;
-  	font-family: 'Crimson Text', Georgia, serif;
+  	font-family: 'Crimson', Georgia, serif;
 }
 
-.contact_info label {
+#contact_wrapper form fieldset .contact_info label {
   	color: #FFFD00;
  	text-align: left;
   	font-size: 1.1em;
@@ -344,40 +344,33 @@ h2 {
   	margin-left:2.5%;
   	margin-bottom: 5px;
   	display:block;
-  	font-family: 'Crimson Text', Georgia, serif;
+  	font-family: 'Crimson', Georgia, serif;
 }
-
-.radio_grp {
+#contact_wrapper form fieldset .radio_grp{
 	overflow:hidden;
 	display:block;
 	width: 95%;
 	margin-right: 2.5%;
   	margin-left:2.5%;
 }
-.radio_grp .radio_buttons {
+#contact_wrapper form fieldset .radio_grp .radio_buttons{
 	display: flex;
 }
-.radio_grp label {
+#contact_wrapper form fieldset .radio_grp label{
 	color: #FFFD00;
   	font-size: 0.9em;
-  	float: right;
   	margin-bottom: 5px;
   	display: block;
-  	width: 80%;
-  	font-family: 'Crimson Text', Georgia, serif;
+  	font-family: 'Crimson',Georgia, serif;
 }
-.radio_grp input {
-	float:left;
+#contact_wrapper form fieldset .radio_grp input[type='radio'] { 
+    transform: scale(2); 
+    margin-top: 2%;
 	margin-right: 7%;
 	margin-left: 3%;
-	width: 10%;
-	font-family: 'Crimson Text', Georgia, serif;
 }
-input[type='radio'] { 
-     transform: scale(2); 
-}
-#submit {
-	font-family: 'Crimson Text', Georgia, serif;
+#contact_wrapper form fieldset #submit{
+	font-family: 'Crimson',Georgia, serif;
   	box-sizing: border-box;
  	width: 70%;
   	height: 2em;
@@ -386,72 +379,16 @@ input[type='radio'] {
   	font-size: 1em;
   	margin: 5% 15%;;
 }
-#submit:hover {
+#contact_wrapper form fieldset #submit:hover{
 	border-radius: 10px;
 	font-size:1.1em;
 	box-shadow: 1px 2px 3px white;
 	color: #0A8A26;
 }
+
 /*END OF CONTACT US PAGE STYLE*/
 /*==========================*/
-@media screen and (min-width:600px) {
-	#contact_wrapper{
-		width:75%;
-	}
-	h2{
-		font-size: 1em;
-	}
-	.contact_info input{
-		font-size: 0.65em;
-	}
-	.contact_info label{
-		font-size: 0.85em;
-	}
-	.radio_grp label{
-		font-size: 0.75em;
-	}
-	input[type='radio'] { 
-		 transform: scale(1.2); 
-	}
-	#submit{
-		width: 70%;
-		margin: 5% 15%;
-		font-size: 0.7em;
-	}
-	#submit:hover{
-		border-radius: 8px;
-		font-size:0.75em;
-	}
-}
-@media screen and (min-width:480px){
-	/*==========================*/
-	/*LAYOUT MEDIA QUERY FOR ALL PAGES*/
-	body{
-		font-size: 32px;
-		padding: 7px;
-	}
-	/*END OF LAYOUT MEDIA QUERY*/
-	/*==========================*/
-	
-	/*==========================*/
-	/*NAVIGATION MEDIA QUERY FOR ALL PAGES*/
-	nav .topnav a.icon {
-		font-size: 27px;
-		margin: 65.5px 7px;
-	}
-	nav .topnav img{
-		width:160px;
-		height:160px;
-	}
-	nav .topnav.responsive a {
-		font-size: 27px;
-	}
-	nav .topnav.responsive a.icon {
-		margin: 80px 10px;
-	}
-	/*END OF NAVIGATION MEDIA QUERY*/
-	/*==========================*/
-}
+
 /*==========================*/
 /*FOOTER STYLE FOR ALL PAGES*/
 .footer-wrapper{
@@ -459,7 +396,7 @@ input[type='radio'] {
 	width: 100%;
 	margin-top: 15px;
 	overflow: hidden;
-	font-family: 'Amiri', serif;
+	font-family: 'Amiri',Arial, serif;
 }
 .footer-wrapper .row h3{
 	padding: 14px;
@@ -592,16 +529,16 @@ input[type='radio'] {
 
 	/*==========================*/
 	/*ABOUT US PAGE MEDIA QUERY*/
-	#about-wrapper {
+	#about-wrapper{
 		padding:10px;
 	}
-	#about-wrapper h1 {
+	#about-wrapper h1{
 		font-size: 1.4em;
 	}
-	#about-wrapper p {
+	#about-wrapper p{
 		font-size: 1.1em;
 	}
-	#about-wrapper .events ul li {
+	#about-wrapper .events ul li{
 		font-size: 1.1em;
 	}
 	/*END OF ABOUT US PAGE MEDIA QUERY*/
@@ -609,8 +546,33 @@ input[type='radio'] {
 
 	/*==========================*/
 	/*CONTACT US PAGE MEDIA QUERY*/
-	
-	
+	#contact_wrapper{
+		width:90%;
+	}
+	#contact_wrapper h2{
+		font-size:1.3em;
+	}
+	#contact_wrapper form fieldset .contact_info input{
+		font-size: 0.70em;
+	}
+	#contact_wrapper form fieldset .contact_info label{
+		font-size: 0.95em;
+	}
+	#contact_wrapper form fieldset .radio_grp label{
+		font-size: 0.8em;
+	}
+	#contact_wrapper form fieldset .radio_grp input[type='radio'] { 
+		 transform: scale(1.5); 
+	}
+	#contact_wrapper form fieldset #submit{
+		width: 60%;
+		margin: 5% 20%;
+		font-size: 0.9em;
+	}
+	#contact_wrapper form fieldset #submit:hover{
+		border-radius: 9px;
+		font-size:0.95em;
+	}
 	/*END OF CONTACT US PAGE MEDIA QUERY*/
 	/*==========================*/
 	
@@ -630,45 +592,15 @@ input[type='radio'] {
 	.footer-wrapper .footer-notes p{
 		font-size: 13px;
 		padding: 7px;
-	}
-	/*END OF FOOTER MEDIA QUERY*/
-	/*==========================*/
+	 }
+	 /*END OF FOOTER MEDIA QUERY*/
+	 /*==========================*/
 }
 /*END OF 480PX STATE STYLE*/
 /*==========================*/
 
 /*==========================*/
 /*STATE STYLE FOR A SCREEN OF A MINIMUM LENGTH OF 600PX*/
-@media screen and (min-width:480px){
-	#contact_wrapper{
-		width:90%;
-	}
-	h2{
-		font-size:1.3em;
-	}
-	.contact_info input{
-		font-size: 0.70em;
-	}
-	.contact_info label{
-		font-size: 0.95em;
-	}
-	.radio_grp label{
-		font-size: 0.8em;
-	}
-	input[type='radio'] { 
-		 transform: scale(1.5); 
-	}
-	#submit{
-		width: 60%;
-		margin: 5% 20%;
-		font-size: 0.9em;
-	}
-	#submit:hover{
-		border-radius: 9px;
-		font-size:0.95em;
-	}
-}
-	
 @media screen and (min-width: 600px) {
 	/*==========================*/
 	/*LAYOUT MEDIA QUERY FOR ALL PAGES*/
@@ -783,16 +715,16 @@ input[type='radio'] {
 	
 	/*==========================*/
 	/*ABOUT US PAGE MEDIA QUERY*/
-	#about-wrapper {
+	#about-wrapper{
 		padding:15px;
 	}
-	#about-wrapper h1 {
+	#about-wrapper h1{
 		font-size: 1.2em;
 	}
-	#about-wrapper p {
+	#about-wrapper p{
 		font-size: 0.9em;
 	}
-	#about-wrapper .events ul li {
+	#about-wrapper .events ul li{
 		font-size: 0.9em;
 	}
 	/*END OF ABOUT US PAGE MEDIA QUERY*/
@@ -800,7 +732,33 @@ input[type='radio'] {
 
 	/*==========================*/	
 	/*CONTACT US MEDIA QUERY*/
-	
+	#contact_wrapper{
+		width:75%;
+	}
+	#contact_wrapper h2{
+		font-size: 1em;
+	}
+	#contact_wrapper form fieldset .contact_info input{
+		font-size: 0.65em;
+	}
+	#contact_wrapper form fieldset .contact_info label{
+		font-size: 0.85em;
+	}
+	#contact_wrapper form fieldset .radio_grp label{
+		font-size: 0.75em;
+	}
+	#contact_wrapper form fieldset .radio_grp input[type='radio'] { 
+		 transform: scale(1.2); 
+	}
+	#contact_wrapper form fieldset #submit{
+		width: 70%;
+		margin: 5% 15%;
+		font-size: 0.7em;
+	}
+	#contact_wrapper form fieldset #submit:hover{
+		border-radius: 8px;
+		font-size:0.75em;
+	}
 	/*END OF CONTACT US MEDIA QUERY*/
 	/*==========================*/
 	
@@ -821,6 +779,7 @@ input[type='radio'] {
 	/*END OF FOOTER MEDIA QUERY*/
 	/*==========================*/
 }
+
 /*END OF 600PX STATE STYLE*/
 /*==========================*/
 
@@ -832,4 +791,6 @@ input[type='radio'] {
 /*END OF STYLESHEET*/
 /*==========================*/
 
-}
+
+
+
