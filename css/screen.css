@@ -547,12 +547,41 @@ input[type='radio'] {
 	#about-wrapper .events ul li {
 		font-size: 1.1em;
 	}
+	/*END OF ABOUT US PAGE MEDIA QUERY*/
+	/*==========================*/
+
+	/*==========================*/
+	/*CONTACT US PAGE MEDIA QUERY*/
 	
-	/*end of about us page media query*/
 	
+	/*END OF CONTACT US PAGE MEDIA QUERY*/
+	/*==========================*/
 	
-	
-	/*contact us page media query for 480px*/
+	/*==========================*/
+	/*FOOTER MEDIA QUERY FOR ALL PAGES*/
+	.footer-wrapper .row h3{
+		padding: 12px;
+		font-size: 17px;
+	}
+	.footer-wrapper p{
+		font-size: 12px;
+		padding:9px;
+	}
+	.footer-wrapper .social-links ul li a{
+		font-size: 17px;
+	}
+	.footer-wrapper .footer-notes p{
+		font-size: 13px;
+		padding: 7px;
+	}
+	/*END OF FOOTER MEDIA QUERY*/
+	/*==========================*/
+}
+/*END OF 480PX STATE STYLE*/
+/*==========================*/
+
+/*==========================*/
+/*STATE STYLE FOR A SCREEN OF A MINIMUM LENGTH OF 600PX*/
 @media screen and (min-width:480px){
 	#contact_wrapper{
 		width:90%;
@@ -583,11 +612,54 @@ input[type='radio'] {
 	}
 }
 	
-	/*end of contact us page media query*/
-}
 @media screen and (min-width: 600px) {
+	/*==========================*/
+	/*LAYOUT MEDIA QUERY FOR ALL PAGES*/
+	body{
+		font-size: 30px;
+		padding: 10px;
+	}
+	/*END OF LAYOUT MEDIA QUERY*/
+	/*==========================*/
 
-	/*home page media query for 600px*/
+	/*==========================*/
+	/*NAVIGATION MEDIA QUERY*/
+	nav .topnav img{
+		width:150px;
+		height:150px;
+	}
+	nav .topnav a:not(:first-child) {display: block;}
+	nav .topnav a {
+		float: left;
+		color: #0C1862;
+		text-align: center;
+		margin: 60px 0px;
+		padding: 15px 20px;
+		text-decoration: none;
+		font-size: 20px;
+	}
+
+	nav .topnav a:hover {
+		color: #0A8A26;
+		background-color: #FFFE78;
+		border-radius: 5px;
+		font-size:23px;
+		box-shadow: 1px 2px 1px #4351A6;
+	}
+
+	nav .topnav a.active {
+		background-color: #04AA6D;
+		color: white;
+		border-radius: 5px;
+	}
+	nav .topnav a.icon {
+		display: none;
+	}
+	/*END OF NAVIGATION MEDIA QUERY*/
+	/*==========================*/
+	
+	/*==========================*/
+	/*HOME PAGE MEDIA QUERY*/
 	/*center image and text media query*/
 	.image-container .centered{
 		position: absolute;
@@ -619,21 +691,21 @@ input[type='radio'] {
 	.content-wrapper .row2{
 		width: 60%;
 	}
-	.content-wrapper .row2 h2{
+	.content-wrapper .row2 .about-section h2{
 		font-size: 1.2em;
 	}
-	.content-wrapper .row2 p {
+	.content-wrapper .row2 .about-section p {
 		font-size: 0.8em;
 		margin-top: 35px;
 		margin-bottom: 35px;
 	}
-	.content-wrapper .row2 button{
+	.content-wrapper .row2 .about-section button{
 		width:65%;
 		padding: 6px;
 		margin-bottom: 35px;
 		font-size: 25px;
 	}
-	.content-wrapper .row2 button:hover{
+	.content-wrapper .row2 .about-section button:hover{
 		font-size: 28px;
 	}	
 	.content-wrapper .row3{
@@ -649,10 +721,11 @@ input[type='radio'] {
 		width:70%;
 		margin: 0% 15% 5% 15%;
 	}
-	/*end of home page media query*/
+	/*END OF HOME PAGE MEDIA QUERY*/
+	/*==========================*/
 	
-	
-	/*about us page media query for 600px*/
+	/*==========================*/
+	/*ABOUT US PAGE MEDIA QUERY*/
 	#about-wrapper {
 		padding:15px;
 	}
@@ -665,12 +738,43 @@ input[type='radio'] {
 	#about-wrapper .events ul li {
 		font-size: 0.9em;
 	}
+	/*END OF ABOUT US PAGE MEDIA QUERY*/
+	/*==========================*/
+
+	/*==========================*/	
+	/*CONTACT US MEDIA QUERY*/
 	
-	/*end of about us page media query*/
+	/*END OF CONTACT US MEDIA QUERY*/
+	/*==========================*/
 	
-	
-	
-	/*contact us page media query for 600px*/
+	/*==========================*/
+	/*FOOTER MEDIA QUERY FOR ALL PAGES*/
+	.footer-wrapper .row h3{
+		padding: 10px;
+		font-size: 14px;
+	}
+	.footer-wrapper .social-links ul li a{
+		font-size: 15px;
+	}
+	.footer-wrapper .footer-notes p {
+		padding: 9px;
+		font-size: 10px;
+
+	}
+	/*END OF FOOTER MEDIA QUERY*/
+	/*==========================*/
+}
+/*END OF 600PX STATE STYLE*/
+/*==========================*/
+
+/*==========================*/
+/*END OF STATE STYLES*/
+/*==========================*/
+
+/*==========================*/
+/*END OF STYLESHEET*/
+/*==========================*/
+
 @media screen and (min-width:600px) {
 	#contact_wrapper{
 		width:75%;
