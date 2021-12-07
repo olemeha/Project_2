@@ -14,7 +14,7 @@ fieldset{
     margin:0;
 }
 h2{
-	font-family: 'Amiri', serif;
+	font-family: 'Times', serif;
  	font-size: 1.35em;
   	color: white;
   	text-align: center;
@@ -34,7 +34,7 @@ h2{
   	width: 95%;
   	float: left;
   	border-style: none;
-  	font-family: 'Crimson Text', serif;
+  	font-family: 'Times', serif;
 }
 
 .contact_info label {
@@ -47,7 +47,7 @@ h2{
   	margin-left:2.5%;
   	margin-bottom: 5px;
   	display:block;
-  	font-family: 'Crimson Text', serif;
+  	font-family: 'Times', serif;
 }
 .radio_grp{
 	overflow:hidden;
@@ -66,20 +66,20 @@ h2{
   	margin-bottom: 5px;
   	display: block;
   	width: 80%;
-  	font-family: 'Crimson Text', serif;
+  	font-family: 'Times', serif;
 }
 .radio_grp input{
 	float:left;
 	margin-right: 7%;
 	margin-left: 3%;
 	width: 10%;
-	font-family: 'Crimson Text', serif;
+	font-family: 'Times', serif;
 }
 input[type='radio'] { 
      transform: scale(2); 
 }
 #submit{
-	font-family: 'Crimson Text', serif;
+	font-family: 'Times', serif;
   	box-sizing: border-box;
  	width: 70%;
   	height: 2em;
