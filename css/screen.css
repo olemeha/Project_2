@@ -208,33 +208,33 @@
 
 
 /*Contact Us Page CSS*/ 
-#contact_wrapper{
+#contact_wrapper {
 	width:100%;
 	margin: auto;
 	background: #3243AF;
 	padding:0;
 }
-form{
-    display:block;
-    box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.14);
+form {
+    	display:block;
+    	box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.14);
 }
-fieldset{
-	padding:10px;
-    border-style: none;
-    margin:0;
+fieldset {
+    	padding:10px;
+    	border-style: none;
+    	margin:0;
 }
-h2{
+h2 {
 	font-family: 'Amiri', serif;
  	font-size: 1.35em;
   	color: white;
   	text-align: center;
   	margin: 5% 0;
 }
-.contact_info{
+.contact_info {
 	overflow:hidden;
 	display:block;
 }
-.contact_info input{ 
+.contact_info input { 
 	padding: 10px 10px;
   	margin-bottom:10px;
   	margin-right: 2.5%;
@@ -260,17 +260,17 @@ h2{
   	font-family: 'Crimson Text', serif;
 }
 
-.radio_grp{
+.radio_grp {
 	overflow:hidden;
 	display:block;
 	width: 95%;
 	margin-right: 2.5%;
   	margin-left:2.5%;
 }
-.radio_grp .radio_buttons{
+.radio_grp .radio_buttons {
 	display: flex;
 }
-.radio_grp label{
+.radio_grp label {
 	color: #FFFD00;
   	font-size: 0.9em;
   	float: right;
@@ -279,7 +279,7 @@ h2{
   	width: 80%;
   	font-family: 'Crimson Text', serif;
 }
-.radio_grp input{
+.radio_grp input {
 	float:left;
 	margin-right: 7%;
 	margin-left: 3%;
@@ -289,7 +289,7 @@ h2{
 input[type='radio'] { 
      transform: scale(2); 
 }
-#submit{
+#submit {
 	font-family: 'Crimson Text', serif;
   	box-sizing: border-box;
  	width: 70%;
@@ -299,7 +299,7 @@ input[type='radio'] {
   	font-size: 1em;
   	margin: 5% 15%;;
 }
-#submit:hover{
+#submit:hover {
 	border-radius: 10px;
 	font-size:1.1em;
 	box-shadow: 1px 2px 3px white;
@@ -365,7 +365,18 @@ input[type='radio'] {
 
 
 	/*about us page media query for 480px*/
-	
+	#about-wrapper {
+		padding:10px;
+	}
+	#about-wrapper h1 {
+		font-size: 1.4em;
+	}
+	#about-wrapper p {
+		font-size: 1.1em;
+	}
+	#about-wrapper .events ul li {
+		font-size: 1.1em;
+	}
 	
 	/*end of about us page media query*/
 	
@@ -472,6 +483,18 @@ input[type='radio'] {
 	
 	
 	/*about us page media query for 600px*/
+	#about-wrapper {
+		padding:15px;
+	}
+	#about-wrapper h1 {
+		font-size: 1.2em;
+	}
+	#about-wrapper p {
+		font-size: 0.9em;
+	}
+	#about-wrapper .events ul li {
+		font-size: 0.9em;
+	}
 	
 	
 	/*end of about us page media query*/
@@ -511,5 +534,3 @@ input[type='radio'] {
 	
 	/*end of contact us page media query*/
 }
-
-
