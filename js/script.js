@@ -1,3 +1,5 @@
+/*==================*/
+/*Interactive navigation bar*/
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -6,7 +8,10 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+/*==================*/
 
+/*==================*/
+/*onClick for other buttons and logo*/
 function myAboutClick(){
 	window.location.href="about.html";
 }
@@ -16,8 +21,20 @@ function myContactClick(){
 function myLogoClick(){
 	window.location.href="index.html";
 }
+/*==================*/
 
+/*==================*/
+/*Uncheck radio button if one is clicked on*/
+function checkUncheckRadio(){
+	if(document.getElementById("text_contact").checked=true ){document.getElementById("email_contact").checked=false;}
+}
+function checkUncheckRadio2(){
+	if(document.getElementById("email_contact").checked=true){document.getElementById("text_contact").checked=false;}
+}
+/*==================*/
 
+/*==================*/
+/*Function for checking form fields*/
 function checkFields(){
 	var fullName = document.getElementById("full_name").value;
 	var email = document.getElementById("email").value;
@@ -43,11 +60,23 @@ function checkFields(){
 		return true;
 	}
 }
+/*==================*/
 
+/*==================*/
+/*Event Listeners for the functions*/
 window.addEventListener('load', function(){
     document.getElementById('submit').addEventListener("click", function(){
         checkFields();
+        document.getElementById('myForm').reset();
+    })
+    document.getElementById('text_contact').addEventListener("click", function(){
+    	checkUncheckRadio();
+    })
+    document.getElementById('email_contact').addEventListener("click", function(){
+    	checkUncheckRadio2();
     })
 });
+/*==================*/
+
 
 
