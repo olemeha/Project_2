@@ -85,9 +85,8 @@ nav .topnav.responsive a.active{
 /*END OF NAVIGATION LAYOUT STYLE*/
 /*==========================*/
 
-
-/* =====CONTENT STYLES =====*/
-/*Home Page CSS*/ 
+/*==========================*/
+/*HOME PAGE LAYOUT STYLE*/ 
 /*image and title style*/
 .image-container{
 	width: 100%;
@@ -210,10 +209,11 @@ nav .topnav.responsive a.active{
 	width:90%;
 	margin: 0% 5% 5% 5%;
 }
-/*end of home page style*/
+/*END OF HOME PAGE STYLE*/
+/*==========================*/
 
-
-/*About Us Page CSS*/ 
+/*==========================*/
+/*ABOUT US PAGE STYLE*/ 
 #about-wrapper{
 	background-color:#5FCB77;
 	padding:5px;
@@ -290,12 +290,11 @@ nav .topnav.responsive a.active{
 	margin-bottom: 10px;
 	font-size:1.3em;
 }
+/*END OF ABOUT US PAGE STYLE*/
+/*==========================*/
 
-
-/*end of about us page style*/
-
-
-/*Contact Us Page CSS*/ 
+/*==========================*/
+/*CONTACT US PAGE STYLE*/ 
 #contact_wrapper {
 	width:100%;
 	margin: auto;
@@ -393,9 +392,64 @@ input[type='radio'] {
 	box-shadow: 1px 2px 3px white;
 	color: #0A8A26;
 }
-/*end of Contact us page style*/
+/*END OF CONTACT US PAGE STYLE*/
+/*==========================*/
 
+/*==========================*/
+/*FOOTER STYLE FOR ALL PAGES*/
+.footer-wrapper{
+	background-color: #F2F14C;
+	width: 100%;
+	margin-top: 15px;
+	overflow: hidden;
+	font-family: 'Amiri', serif;
+}
+.footer-wrapper .row h3{
+	padding: 14px;
+	font-size: 20px;
+	text-align: center;
+	width: auto;
+}
+.footer-wrapper .social-links{
+	width: 100%;
+}
+.footer-wrapper .social-links ul{
+	display: flex;
+	justify-content: center;
+}
+.footer-wrapper .social-links ul li{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px 15px;
+}
+.footer-wrapper .social-links ul li a{
+	position: relative;
+	display: block;
+	font-size: 20px;
+	word-break: break-all;
+	color: #27379C;
+}
+.footer-wrapper .social-links a:hover{
+	color: #6C76B2;
+}
+.footer-wrapper .footer-notes{
+	display:block;
+	background-color: #3AB756;
+}
+.footer-wrapper .footer-notes p{
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	padding: 5px;
+}
+/*END OF FOOTER STYLE*/
+/*==========================*/
+/*==========================*/
+
+/*==========================*/
 /* ===== STATE STYLES ===== */
+
+/*STATE STYLE FOR A SCREEN OF A MINIMUM LENGTH OF 480PX*/
 @media screen and (min-width:480px){
 	/*==========================*/
 	/*LAYOUT MEDIA QUERY FOR ALL PAGES*/
@@ -479,10 +533,8 @@ input[type='radio'] {
 	/*END OF HOME PAGE MEDIA QUERY*/
 	/*==========================*/
 
-
-
-
-	/*about us page media query for 480px*/
+	/*==========================*/
+	/*ABOUT US PAGE MEDIA QUERY*/
 	#about-wrapper {
 		padding:10px;
 	}
