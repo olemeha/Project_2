@@ -358,9 +358,8 @@ nav .topnav.responsive a.active{
 }
 #contact_wrapper form fieldset .radio_grp label{
 	color: #FFFD00;
-  	font-size: 0.9em;
+  	font-size: 0.7em;
   	margin-bottom: 5px;
-  	display: block;
   	font-family: 'Crimson',Georgia, serif;
 }
 #contact_wrapper form fieldset .radio_grp input[type='radio'] { 
@@ -559,7 +558,7 @@ nav .topnav.responsive a.active{
 		font-size: 0.95em;
 	}
 	#contact_wrapper form fieldset .radio_grp label{
-		font-size: 0.8em;
+		font-size: 0.65em;
 	}
 	#contact_wrapper form fieldset .radio_grp input[type='radio'] { 
 		 transform: scale(1.5); 
@@ -601,7 +600,7 @@ nav .topnav.responsive a.active{
 
 /*==========================*/
 /*STATE STYLE FOR A SCREEN OF A MINIMUM LENGTH OF 600PX*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width:600px) {
 	/*==========================*/
 	/*LAYOUT MEDIA QUERY FOR ALL PAGES*/
 	body{
@@ -746,7 +745,7 @@ nav .topnav.responsive a.active{
 		font-size: 0.85em;
 	}
 	#contact_wrapper form fieldset .radio_grp label{
-		font-size: 0.75em;
+		font-size: 0.6em;
 	}
 	#contact_wrapper form fieldset .radio_grp input[type='radio'] { 
 		 transform: scale(1.2); 
