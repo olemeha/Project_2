@@ -619,10 +619,11 @@ nav .topnav.responsive a.active{
 	}
 	nav .topnav a:not(:first-child) {display: block;}
 	nav .topnav a {
+		position: relative;
 		float: left;
 		color: #0C1862;
 		text-align: center;
-		margin: 60px 0px;
+		margin: 58px 0px;
 		padding: 15px 20px;
 		text-decoration: none;
 		font-size: 20px;
