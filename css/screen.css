@@ -1,3 +1,91 @@
+/*==========================*/
+/* ===== LAYOUT STYLES =====*/
+html{
+	width: auto;
+	background-color: #27379C;
+}
+body{
+	font-size: 35px;
+	max-width: 960px;
+	margin: auto;
+	background-color: #132889; 
+	padding: 1px;
+}
+/*==========================*/
+
+/*==========================*/
+/* =====MAIN STYLES =====*/
+/*NAVIGATION LAYOUT STYLE FOR ALL PAGES*/ 
+nav .topnav {
+	width: 100%;
+	overflow: hidden;
+	background-color: #F2F14C;
+	margin-bottom: 15px;
+	font-family: 'Amiri', serif;
+}
+nav .topnav .logo img{
+	width: 170px;
+	height:170px;
+	float:left;
+	display: block;
+	margin-right: 35px;
+}
+/*menu with icon of hamburger but no interaction*/
+nav .topnav a:not(:first-child) {display: none;}
+nav .topnav a.icon {
+	float: right;
+	display: block;
+	box-shadow: none;
+	font-size: 30px;
+	border-radius: 5px;
+	color: #27379C;
+	margin: 68px 10px;
+	
+}
+/*responsive hamburger icon for nav bar*/
+nav .topnav.responsive {position: relative;}
+nav .topnav.responsive a.icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #27379C;
+	border-radius: 0px;
+	margin: 88px 10px;
+}
+nav .topnav.responsive a.icon:hover {
+	box-shadow: 0px 0px 0px #4351A6;
+	font-size: 31px;
+	color: #0A8A26;
+	background: #F2F14C;
+}
+nav .topnav.responsive .logo img{
+	display: none;
+}
+nav .topnav.responsive a {
+	float: none;
+	display: block;
+	text-align: center;
+	text-decoration:none;
+	padding: 10px 12px;
+	font-size:30px;
+	border-radius: 0px;
+	color: #0C1862;
+	margin: 20px 0px;
+}
+nav .topnav.responsive a:hover{
+ 	color: #0A8A26;
+	background-color: #FFFE78;
+	font-size: 32px;
+	box-shadow: 1px 2px 1px #4351A6;
+}
+nav .topnav.responsive a.active{
+	background-color: #04AA6D;
+	color: white;
+}
+/*END OF NAVIGATION LAYOUT STYLE*/
+/*==========================*/
+
+
 /* =====CONTENT STYLES =====*/
 /*Home Page CSS*/ 
 /*image and title style*/
