@@ -378,7 +378,6 @@ input[type='radio'] {
 		font-size: 1.1em;
 	}
 	
-	
 	/*end of about us page media query*/
 	
 	
@@ -484,6 +483,18 @@ input[type='radio'] {
 	
 	
 	/*about us page media query for 600px*/
+	#about-wrapper {
+		padding:15px;
+	}
+	#about-wrapper h1 {
+		font-size: 1.2em;
+	}
+	#about-wrapper p {
+		font-size: 0.9em;
+	}
+	#about-wrapper .events ul li {
+		font-size: 0.9em;
+	}
 	
 	
 	/*end of about us page media query*/
